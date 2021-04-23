@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## AutoToolit documentation
 
-You can use the [editor on GitHub](https://github.com/AutoToolit/autotoolit.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### What is AutoToolit for Office?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Did you ever want to automate the data in your Excel files or automatically e-mails with a PowerPoint slide deck containing the latest data? AutoToolit for Office helps you to set up those scenarios in minutes.
+In fact, many scenarios that usually require the use of VBA macros can be simply configured with this tool.
 
-### Markdown
+### Getting started
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+To get started, first download the latest version here: https://autotoolit.com.
 
-```markdown
-Syntax highlighted code block
+Execute the downloaded installer file.
 
-# Header 1
-## Header 2
-### Header 3
+After successful installation you will see an additional "Auto" tab in the Excel and PowerPoint ribbon.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### Typical tasks
 
-**Bold** and _Italic_ and `Code` text
+You can use AutoToolit for Office e.g. for these scenarios:
+- build a dashboard in PowerPoint that easily updates for new data and can be easily adjusted for new data selections
+- generate reports on cloud folders, that get automatically distributed to users mobile devices
+- send e-mails to users with any generated PowerPoint document or other attachment
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AutoToolit/autotoolit.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+If you have issues you can contact our support team at support@autotoolit.com.
