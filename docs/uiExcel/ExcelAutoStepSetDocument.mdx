@@ -1,0 +1,18 @@
+---
+sidebar_position: 15
+sidebar_label: Automate documents
+title: Automate generation of documents in Excel
+slug: /Excel/Excel-automate-document-generation-for-powerpoint-word-pdf
+---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+In case you want to generate multiple documents with one automation preset you can use the **Set Document** automation step.
+This automation step changes the target document, which is used by the following automation steps.
+Any setting made in general settings or in a previous **Set Document** automation step is overwritten, once a new **Set Document** automation step is processed:
+
+<img alt="for Excel automation in AutoToolit for Office" src={useBaseUrl('/img/uiExcel/excel-automation-step-document-change-01-autotoolit-646.png')} width="646" className="dropShadowImages"/>
+
+You can choose, whether to change the target document for PowerPoint or Word exports.
+The location and name of the new target document can be specified directly or from an Excel cell.
+
+After the target document has been processed by the following automation steps it is possible to keep the document window open or close it automatically.

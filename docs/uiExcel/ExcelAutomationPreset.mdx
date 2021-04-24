@@ -1,0 +1,46 @@
+---
+sidebar_position: 4
+sidebar_label: Automation preset
+title: Excel automation preset
+slug: /Excel/Excel-automation-preset
+---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+To automate actions in MS Office you can use Excel automation presets provided by AutoToolit for Office.
+Click **Add Preset** in the **Auto** ribbon toolbar to create a new automation preset:
+
+<img alt="ribbon toolbar to add an automation preset for Excel automation in AutoToolit for Office" src={useBaseUrl('/img/uiExcel/excel-automation-preset-01-ribbon-add-autotoolit-306.png')} width="306" className="dropShadowImages"/>
+
+### General settings
+For the automation preset you can define various general settings:
+
+<img alt="general settings for Excel automation in AutoToolit for Office" src={useBaseUrl('/img/uiExcel/excel-automation-preset-02-general-settings-autotoolit-617.png')} width="617" className="dropShadowImages"/>
+
+First you can choose, if you want to just automate the current Excel workbook or if you want to create a new file using the Excel workbook as template.
+
+In case you want a new file, you can specify its name and location. You can read the location and name of the file from an Excel cell, if you need to perform any logic to derive it.
+
+Sometimes it is useful to create new files based on another template file, especially when creating PowerPoint presentations. You can then choose the name and location of the template file here.
+
+### Available automation step types
+For each automation preset you can define a list of automation steps that will be executed sequentially.
+This is the list of currently available automation types that can be added to the automation preset:
+- **PowerPoint Export** exports an Excel export section to a PowerPoint presentation
+- **Send EMail** creates an email message with attachments and sends it
+- **Set Parameters** changes the values of one or several parameters
+- **Update Data Source** triggers the update of all or selected data sources
+- **Set Document** changes the current target document that is modified during the export
+
+In a new preset you can choose the first automation step:
+
+<img alt="available automation step types for Excel automation in AutoToolit for Office" src={useBaseUrl('/img/uiExcel/excel-automation-preset-03-step-select-autotoolit-793.png')} width="793" className="dropShadowImages"/>
+
+### Automation steps for current preset
+
+If you have several automation steps configured for a preset you can see the sequence of automation steps as well.
+Here is an example:
+
+<img alt="automation step sequence for Excel automation in AutoToolit for Office" src={useBaseUrl('/img/uiExcel/excel-automation-preset-04-step-list-change-836.png')} width="836" className="dropShadowImages"/>
+
+The order of the automation steps can be change by drag and drop.
+You can add new automation steps when clicking the **+** button.
